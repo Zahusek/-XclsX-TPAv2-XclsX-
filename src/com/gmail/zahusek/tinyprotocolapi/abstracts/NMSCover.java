@@ -6,7 +6,7 @@ import com.gmail.zahusek.tinyprotocolapi.annotations.NMSHandler;
 import com.gmail.zahusek.tinyprotocolapi.utility.Reflection;
 import com.gmail.zahusek.tinyprotocolapi.utility.Reflection.*;
 
-public class NMSCover {
+public abstract class NMSCover {
 
 	protected Object data;
 	protected Accessor[] fields;
